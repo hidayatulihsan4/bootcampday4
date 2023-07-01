@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-    color: aliceblue;
+    color: chocolate;
 }
 
 .nav-right {
@@ -62,7 +62,7 @@ nav ul li a:hover{
 }
 
 .nav-right button:hover {
-    color: rgb(214, 214, 214);
-    background-color: rgb(46, 48, 50);
-    font-size:medium;
+    color: chocolate;
+    background-color: black;
+    
 }
