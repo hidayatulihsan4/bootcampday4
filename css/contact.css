@@ -12,30 +12,30 @@ input {
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     border: 2px solid #ffffff;
-    border-radius: 4px;
+    border-radius: 0px;
     background-color: #ffffff;
     height: 35px;
-    box-shadow: 0 6px 10px 0;
+    
 }
 
 select {
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     border: 2px solid #ffffff;
-    border-radius: 4px;
+    border-radius: 0px;
     background-color: #ffffff;
     height: 35px;
-    box-shadow: 0 6px 10px 0;
+    
 }
 
 text {
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     border: 2px solid #ffffff;
-    border-radius: 4px;
+    border-radius: 0px;
     background-color: #ffffff;
     resize: vertical;
-    box-shadow: 0 6px 10px 0;
+    
 }
 
 .form-container div label {

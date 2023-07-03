@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/contact.css">
-    <title>Task 2 - Hidayatul Ihsan</title>
+    <title>Task 3 - Hidayatul Ihsan</title>
 </head>
 <body>
     <nav>
@@ -25,34 +25,36 @@
     <div class="contact-container">
         <form action="#" class="form-container">
             <div>
-                <label for="Name">Name</label>
-                <input type="text">
+                <label for="input-name">Name</label>
+                <input type="text" id="input-name">
             </div>
             <div>
-                <label for="Email">Email</label>
-                <input type="email">
+                <label for="input-email">Email</label>
+                <input type="email" id="input-email">
             </div>
             <div>
-                <label for="Phone Number">Phone Number</label>
-                <input type="text">
+                <label for="input-phone">Phone Number</label>
+                <input type="text" id="input-phone">
             </div>
             <div>
-                <label for="Subject">Subject</label>
-                <select name="" id="">
-                    <option>Choose One</option>
-                    <option value="">Frontend Developer</option>
-                    <option value="">Backend Developer</option>
-                    <option value="">Fullstack Developer</option>
+                <label for="input-subject">Subject</label>
+                <select name="" id="input-subject">
+                    <option value="">Choose One</option>
+                    <option >Frontend Developer</option>
+                    <option >Backend Developer</option>
+                    <option >Fullstack Developer</option>
                 </select>  
             </div>
             <div>
-                <label for="Message">Your Message</label>
-                <textarea name="" id="" cols="15" rows="5"></textarea>
+                <label for="input-message">Your Message</label>
+
+                <textarea name="" id="input-message" cols="15" rows="5"></textarea>
             </div>
             <div>
-                <button>Submit</button>
-            </div>
-    </form>
-</div>
-</body>
+                <button type="submit" class="btn-submit" onclick="submitData(event)">Submit</button>
+                  </div>
+              </form>
+           </div>
+        <script src="js/contact.js"></script>
+    </body>
 </html>
