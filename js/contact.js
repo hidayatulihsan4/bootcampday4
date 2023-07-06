@@ -16,8 +16,6 @@ function submitData(event) {
         message
     }
 
-   
-
     console.log(objectData)
 
     if (name === "") {
