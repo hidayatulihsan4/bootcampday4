@@ -4,7 +4,7 @@ body {
 
 .header {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 300px;
     /* font-weight: ; */
 }
 
@@ -41,7 +41,7 @@ text {
 .form-container div label {
     font-size: medium;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 

@@ -103,3 +103,14 @@ a {
     margin: 5px; 
     border-radius: 5px;
 }
+input,
+select,
+textarea {
+  margin-top: 3px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: #c1c1c1;
+  box-shadow: 0 2px 3px #c1c1c1;
+  resize: none;
+}
